@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.section {
+    height: 480px;
+    background-color: #1D75DE;
+    display: flex;
+    flex-direction: column;
+    padding: 0 var(--app-block-padding);
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.getpremium h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 48px;
+ 
+}
+.getpremium p {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 36px;
+    padding: 35px 0;
+}
+.buttons {
+    display: flex;
+}
+.Termslink {
+    padding-top: 40px;
+}
+.Termslink a{
+    color: #fff;
+    font-size: 11px;
+}
+.Termslink p{
+    text-align: center;
+  font-size: 11px;
+    
+} 
+
+@media (max-width: 850px) {
+    .getpremium h1 {
+        font-size: 2.5rem;
+     }
+    .getpremium p {
+        font-size: 1.3rem;
+     }
+}
+
+@media (max-width: 700px) {
+
+    .getpremium h1 {
+        font-size: 2.2rem;
+     }
+    .getpremium p {
+        font-size: 1.1rem;
+     }
+}
+
+@media (max-width: 700px) {
+    .getpremium h1 {
+        font-size: 2rem;
+     }
+    .getpremium p {
+        font-size: 1rem;
+     }
+}
