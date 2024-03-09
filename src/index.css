@@ -16,23 +16,24 @@ code {
 }
 
 :root {
-  --app-block-padding: 180px
+  --app-padding: 0 180px;
+  --app-header-background: #000;
 }
 
-@media (max-width: 1120px) {
+/* @media (max-width: 1120px) {
   :root {
     --app-block-padding: 80px
   }
-}
+} */
 
 @media (max-width: 920px) {
   :root {
-    --app-block-padding: 40px
+    --app-padding: 0 60px;
   }
 }
 
-@media (max-width: 750px) {
+/* @media (max-width: 750px) {
   :root {
     --app-block-padding: 20px
   }
-}
+} */
