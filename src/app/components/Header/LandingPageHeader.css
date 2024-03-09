@@ -31,6 +31,7 @@
     }
     .menu ul {
       display: none;
+      padding: 0;
     }
     .menu ul.mobile {
         display: block;

@@ -24,11 +24,13 @@
 
 .termslink {
     font-size: 11px;
-    color: blue;
+    color: #fff;
     text-align: center;
 }
 .termslink a {
     text-decoration: underline;
+    color: #fff;
+
 }
 .button-group {
     display: flex;
