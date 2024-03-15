@@ -1,5 +1,6 @@
 .btn, .btn-outline , .btn-secondary {
   background-color: black;
+  /* display: block; */
   color: #fff;
   border: none;
   padding: 16px 35px;
@@ -26,3 +27,33 @@
     text-wrap: nowrap;
   }
 }
+
+.link-outline, .link{
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+
+}
+
+.link {
+  background-color: #0d72ea;
+  width: 85px;
+  padding: 3px;
+  color: #fff;
+  font-size: 13px;
+  margin: 0;
+}
+.hide {
+  margin: 0;
+}
+.link-outline {
+  background-color: transparent;
+  color: #0d72ea;
+  border: 1px solid #0d72ea;
+  font-size: 14px;
+  width: 165px;
+  padding: 3px;
+}
+
+
+

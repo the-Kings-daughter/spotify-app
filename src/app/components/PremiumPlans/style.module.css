@@ -1,0 +1,149 @@
+.PremiumPlans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    background-color: #eeeeee;
+    padding: 35px;
+
+}
+.PremiumPlans .Leadingtext {
+    text-align: center;
+  
+}
+.PremiumPlans .title {
+    font-size: 39px;
+    font-weight: bold;
+    margin: 0;
+}
+.PremiumPlans .para {
+    font-size: 20px;
+    font-weight: normal;
+}
+.PremiumPlans img {
+    margin-bottom: 20px;
+}
+.plancard {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  /* overflow: hidden; */
+}
+.cards {
+    max-width: 245px;
+    height: 550px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    padding: 15px;
+    border-radius: 8px;
+    margin: 0;
+    box-shadow: 0px 0px 8px #ccc;
+   
+    
+}
+.card1 {
+    height: 170px;
+    /* background-color: aqua; */
+    border-bottom: 2px solid #ccc;
+    /* padding: 15px; */
+}
+.card2 {
+    height: 254px;
+    /* padding: 15px; */
+}
+/* .card3 {
+    width: 240px;
+    height: 48px;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+} */
+.card3{
+    /* box-shadow: 0px -12px 9px #eee; */
+    height: 80px;
+    /* padding: 15px; */
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+/* .wrapperpara {
+    margin: 0;
+    background-color: #0d72ea;
+    width: 85px;
+    padding: 3px;
+    color: #fff;
+    font-size: 13px;
+} */
+
+.plantitle {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.pricetag {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 5px;
+}
+.description {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 30px;
+    /* border-bottom: 1px solid #d54747; */
+   
+}
+.hr {
+    width:100% ;
+    border: 1px solid #eeeeee;
+}
+.cards img {
+    width: 24px;
+    height: 24px;
+}
+
+.featurelist {
+    list-style-type: none;
+    padding: 0 ;
+  }
+  
+  .featureitem {
+    /* margin-bottom: 8px; */
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    font-weight: bold;
+  }
+  
+  .img {
+    margin-right: 8px;
+  
+  }
+  .link {
+    font-size: 12px ;
+    color: #000;
+    cursor: pointer;
+
+  }
+  .linktext {
+    font-size: 12px ;
+    color: #000;
+  }
+
+ 
+
+
+
+
+
+
+
