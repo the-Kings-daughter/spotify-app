@@ -2,6 +2,7 @@ import PaymentIcons from '../../assets/images/icons/payment.svg';
 import { PlanCard } from './PlanCard';
 import styles from './style.module.css';
 import {premiumplans} from './data'
+import {CustomButton} from "../Button"
 
 
 
@@ -19,11 +20,12 @@ export const PremiumPlans = () => {
                 {premiumplans.map((premiumplan, index) => (
                    <PlanCard key={index} {...premiumplan} />
                 ))}
-
-
             </div>
              
-       
+             <div className={styles.studentdiscount}>
+                <p>Special discount for eligible students in university</p>
+                <CustomButton type='secondary' onClick= {()=> {}} className={styles.learnmore}>Learn more</CustomButton>
+             </div>
         </section>
     )
 }

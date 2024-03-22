@@ -12,6 +12,7 @@
 .features .title {
      font-size: 39px;
      font-weight: bold;
+     text-align: center;
 }
 .features .list {
     display: flex;

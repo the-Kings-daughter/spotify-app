@@ -10,7 +10,7 @@ function useState(initialValue) {
       val = newValue
    }
    return [val, change]
-}
+};
 
 
 export const LandingPageHeader = () => {
@@ -31,17 +31,3 @@ export const LandingPageHeader = () => {
    )
 }
 
-// const MobileNavigation = ()=> {
-//    return (
-//       <>
-
-//          {
-//             showMenu && (
-//                <div className="menu mobile" >  
-//                   <HeaderNavigation />
-//             </div>
-//             )
-//          }
-//       </>
-//    )
-// }
