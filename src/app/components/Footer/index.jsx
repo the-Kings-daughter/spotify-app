@@ -22,7 +22,7 @@ export const Footer = () => {
                 <div className={styles['legal-urls']}> 
                     {
                        legalUrls.map(({url, name }) => 
-                       <a href={`#{url}`}>{name}</a>
+                       <a href={`${url}`}>{name}</a>
                     
                     ) 
                     }
