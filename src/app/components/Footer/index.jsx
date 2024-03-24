@@ -1,4 +1,5 @@
 
+import React from 'react'
 import {FaInstagram, FaTwitter, FaFacebookF, FaGlobeAmericas} from 'react-icons/fa'
 import styles from './styles.module.css'
 import {Logo} from '../Logo/Logo'

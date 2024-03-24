@@ -1,3 +1,4 @@
+import React from 'react'
 import style from './Hero.module.css'
 import {CustomButton} from '../Button'
 export const Hero = () => {
