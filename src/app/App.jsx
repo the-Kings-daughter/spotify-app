@@ -2,11 +2,16 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import './App.css';
 import { LandingPage } from './Pages/LandingPage'
 import { LoginPage } from './Pages/Login/index'
+import { IsProtectedRoute } from './components/hoc/isProtectedRoute'
 
 const router = createBrowserRouter([
   {
     path: '' ,
-    element: <LandingPage />
+    element:   <LandingPage /> 
+  }, 
+  {
+    path: 'dashboard' ,
+    element: <IsProtectedRoute> <LoginPage /> </IsProtectedRoute> 
   }, 
   {
     path: 'login' ,
@@ -19,6 +24,7 @@ const router = createBrowserRouter([
 ])
 export function App() {
   return (
+
     <RouterProvider router={router} />
   )
 }
